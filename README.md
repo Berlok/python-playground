@@ -1,4 +1,9 @@
-# python-playground
-repo for python study.
+## python-playground
+Repo for python study. Including:
 
-`webscrapping` is a collection of webscrapper scripts
+* Some code examples and projects from book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* ...and more to come.
+
+Structure:
+
+* `webscrapping`: a collection of webscrapper scripts
