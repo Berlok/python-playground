@@ -14,6 +14,6 @@ soup = bs4.BeautifulSoup(res.text, 'html.parser')
 
 # open a browser tab for each result
 linkElems = soup.select('.r a')
-tabsOpen = min(5, len(linkElems)) # maximal 5 tabs
+tabsOpen = min(5, len(linkElems))  # maximal 5 tabs
 for i in range(tabsOpen):
-	webbrowser.open('https://www.google.com' + linkElems[i].get('href'))
+    webbrowser.open('https://www.google.com' + linkElems[i].get('href'))
