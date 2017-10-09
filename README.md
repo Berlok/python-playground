@@ -7,3 +7,4 @@ Repo for python study. Including:
 Structure:
 
 * `webscrapping`: a collection of webscrapper scripts
+...working in progress
