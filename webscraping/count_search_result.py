@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 """
 Python script for sending a HTTP POST request to a web search form,
 then scrape the result and print out total number of search results
@@ -17,4 +17,4 @@ fp = urllib.urlopen(url, post_args)
 soup = BeautifulSoup(fp, "html5lib")
 results = soup.find_all('h4', id="search_result")
 
-print "Total number of search result is " + str(len(results))
+print("Total number of search result is ") + str(len(results))
